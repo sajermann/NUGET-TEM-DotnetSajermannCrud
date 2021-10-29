@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Bruno Sajermann",
+  "classifications": [ "Common", "Library", "WebApi" ],
+  "identity": "Sajermann.CrudTemplate.DotNetFive",
+  "name": "Sajermann Crud Template DotNet 5",
+  "shortName": "sctd5",
+  "tags": {"language": "C#", "type": "project"},
+  "sourceName": "ProjectNewName",
+  "symbols": {
+    "conn":{
+      "type": "parameter",
+      "datatype": "string",
+      "replaces": "{conn}",
+      "description": "String de conexão utilizada",
+      "defaultValue": ""
+    }
+  },
+  "postActions": [
+    {
+      "actionId": "cb9a6cf3-4f5c-4860-b9d2-03a574959774",
+      "args": { "executable": "deleteGitFolder.bat", "args": ""},
+      "manualInstructions": [{"text": "Run 'rd /s .git /q'"}],
+      "continueOnError": false,
+      "description": "Clear .git folder and deleteGitFolder.bat"
+    }
+  ]
+}
