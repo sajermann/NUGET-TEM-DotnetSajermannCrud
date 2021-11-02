@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ProjectNewName.Domain</AssemblyName>
+    <RootNamespace>ProjectNewName.Domain</RootNamespace>
   </PropertyGroup>
 
 </Project>

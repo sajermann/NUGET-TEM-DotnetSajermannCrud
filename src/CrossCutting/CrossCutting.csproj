@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ProjectNewName.CrossCutting</AssemblyName>
+    <RootNamespace>ProjectNewName.CrossCutting</RootNamespace>
   </PropertyGroup>
 
 	<ItemGroup>

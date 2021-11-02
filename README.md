@@ -13,3 +13,7 @@ D:\Aplicativos\Portable\Nuget\nuget.exe pack E:\Programação\Github\TemplateDot
 ## TODO
 
 ### Arrumar o comando dentro do template.json pra excluir a pasta .git
+### Arrumar o comando dentro do template.json pra excluir a pasta .vs
+### Arrumar o comando dentro do template.json pra excluir o arquivo README.md
+### Arrumar o comando dentro do template.json pra excluir o arquivo deleteGitFolder.bat
+### Arrumar o comando dentro do template.json pra excluir o arquivo TemplateDotnetSajermannCrud.nuspec
